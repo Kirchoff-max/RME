@@ -54,6 +54,63 @@ ol {
   color: white;
   border: 1px solid #1E90FF;
 }
+.btton {
+  background: white;
+  border-radius: 50px;
+  max-width: 505px;
+  margin: auto;
+
+}
+.btton a>.btn-primary:active {
+  color: #fff;
+}
+.button {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 15px 32px;
+  width: 250px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #6300D9;
+    color: white;
+}
+.button a {
+  color: gray;
+}
+.button a:hover {
+  color: white;
+}
+.text {
+  background: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 0;
+}
+
+#content {
+  width: 70%;
+  float: right;
+  padding-top: 85px;
+  padding-right: 30px;
+}
+#content1 {
+  color: gray;
+  padding-left: 20px;
+  width: 20%;
+  float: left;
+}
+.d-text {
+  font-size:large;
+  padding-bottom: 10px;
+
+}
 .btnn:hover {
   background-color: #1E90FF;
   color: white;
@@ -104,8 +161,9 @@ d-flex {
 }
 
 .tm-navbar.scroll {
-  background-color: white;
+  background-color: #6300D9;
   border-bottom: 1px solid #e9ecef;
+  color: #ffffff;
 }
 
 .navbar-brand {
@@ -120,7 +178,7 @@ d-flex {
 }
 
 .tm-navbar.scroll .navbar-brand {
-  color: #8f8f8f;
+  color: #fff;
 }
 
 .nav-item {
@@ -132,19 +190,23 @@ d-flex {
 }
 
 .tm-navbar.scroll .tm-nav-link {
-  color: #8f8f8f;
+  color: #fff;
 }
 
 .tm-navbar.scroll .tm-nav-link:hover,
 .tm-navbar.scroll .tm-nav-link.current,
 .tm-nav-link:hover {
-  color: #3496d8;
+  color: orange;
 }
 
 .navbar-toggler {
   border: 1px solid white;
   padding-left: 10px;
   padding-right: 10px;
+}
+.dropdown-item {
+  background-color: #6300D9;
+  color: #fff;
 }
 
 .navbar-toggler-icon {
